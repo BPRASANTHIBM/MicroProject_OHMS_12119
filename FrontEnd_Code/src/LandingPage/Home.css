@@ -1,0 +1,100 @@
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  /* *******HOME******* */
+  
+  #home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)) ,url("https://th.bing.com/th/id/R.3f060a905a6177a5367a8409418031f2?rik=FMGz7z8CmJUa%2bg&riu=http%3a%2f%2fmilgrasp.com%2fimg%2fsections%2ffeatures%2fhostel_management3.jpg&ehk=bBLG9LZcucts44zMSMWo4WhjKaZV%2bmvEDtwOkA66GiY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+  
+  }
+  #home h1{
+    color: #fff;
+    font-size: 120px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+    text-shadow: 0px 1px 0px #CCC, 0px 2px 0px #CCC, 0px 3px 0px #CCC, 0px 4px 0px #CCC, 0px 5px 0px #CCC, 0px 6px 0px #CCC, 0px 7px 0px #CCC;
+  }
+  #home p{
+    font-size: 22px;
+    color: #fff;
+  }
+  #home .input-group{
+    width: 40%;
+    height: 45px;
+  
+  }
+  .signin{
+    background: #29f700 !important;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    font-size: 20px !important;
+    font-weight: bolder;
+  
+  }
+  
+  /* ***ABOUT*** */
+  
+  #about{
+    background: linear-gradient(to right,#777170,#6f6869);
+    font-size: 20px !important;
+   
+  }
+  #about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+  }
+  #about p{
+    color: #fff;
+  }
+  
+  /* ***Products** */
+  
+  
+  
+  /* contact us */
+  
+  #contactus img{
+  height: 80%;
+  }
+  
+  #box1{
+  width: 80% !important;
+  margin-top: 10px;
+  }
+  form{
+  display: flex;
+  flex-direction: column;
+  
+  }
+  #contactus input{
+  margin:10px 0px;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  }
+  #contactus textarea{
+  margin:10px 0px;
+  font-size: 22px !important;
+  font-weight: 500 !important;
+  }
+  
+  /* footer */
+  footer{
+  width: 100%;
+  height: 60px;
+  background: rgb(0,0,0,.5);
+  color: #fff;
+  margin-top: -30px;
+  text-align: center;
+  padding: 30px;
+  }
+  
